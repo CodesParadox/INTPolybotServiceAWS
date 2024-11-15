@@ -5,6 +5,7 @@ import yaml
 from loguru import logger
 import os
 import boto3
+import requests
 
 images_bucket = os.environ['BUCKET_NAME']
 queue_name = os.environ['SQS_QUEUE_NAME']
